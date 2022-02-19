@@ -1,0 +1,121 @@
+/* html{
+    background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+} */
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    text-decoration: #e63946 wavy underline;
+    color: black;
+}
+
+section{
+    text-align: center;
+    background-color: none;
+}
+
+h2{
+    /* background-color: #fff;  */
+    background-color: none;
+  color: #202c2d;
+  text-shadow:
+    0 1px #808d93,
+    -1px 0 #cdd2d5,
+    -1px 2px #808d93,
+    -2px 1px #cdd2d5,
+    -2px 3px #808d93,
+    -3px 2px #cdd2d5,
+    -3px 4px #808d93,
+    -4px 3px #cdd2d5,
+    -4px 5px #808d93,
+    -5px 4px #cdd2d5,
+    -5px 6px #808d93,
+    -6px 5px #cdd2d5,
+    -6px 7px #808d93,
+    -7px 6px #cdd2d5,
+    -7px 8px #808d93,
+    -8px 7px #cdd2d5;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    transition: all 0.25s;
+}
+
+.search:hover{
+    background-color: #606c38;
+    transform: rotate(360deg);
+}
+
+section a{
+    text-decoration: none;
+}
+
+button:hover{
+    font-size: 30px;
+}
+
+input:hover{
+    font-size: 20px;
+}
+
+body{
+    zoom: 200%;
+    margin: 0;
+    padding: 0;
+}
+
+.images{
+    width: 60px;
+    background-color: none;
+}
+
+.images:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+footer{
+    /* background-color: #e63946; */
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(7, 119, 122);
+}
+
+footer a:hover{
+    /* color: #ffd7ba; */
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+    white-space:nowrap;
+}
+
+@media (max-width:330px) {
+    
+button:hover{
+    font-size: 15px;
+}
+
+input:hover{
+    font-size: 10px;
+}
+
+body{
+    zoom:none;
+}
+
+}
